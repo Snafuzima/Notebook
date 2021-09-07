@@ -39,10 +39,7 @@ public class NoteFragment extends Fragment {
     public void showNotes(List<Note> notes) {
         View itemNote = LayoutInflater.from(requireContext()).inflate(R.layout.item_note, container, false);
 
-        itemNote.setOnClickListener(view -> {
-            Intent intent = new Intent(requireContext(), EditActivity.class);
-            startActivity(intent);
-        });
+
     }
 
 
