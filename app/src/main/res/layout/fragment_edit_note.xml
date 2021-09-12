@@ -7,19 +7,20 @@
     android:padding="@dimen/padding_fields">
 
     <EditText
-        android:id="@+id/edit_name"
+        android:id="@+id/note_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hint_name" />
+        android:hint="@string/hint_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
     <EditText
-        android:id="@+id/text_description"
+        android:id="@+id/note_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_description" />
 
     <TextView
-        android:id="@+id/text_date"
+        android:id="@+id/note_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_date" />
